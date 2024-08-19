@@ -1,0 +1,38 @@
+header{
+    position:sticky;
+    top:0;
+    background-color: #fff;
+    z-index:1000;
+}
+.banner{
+    background-image:url(banner.jpg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  .about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .about-us, .find-us {
+      flex-direction: column;
+    }
+  }
+      
+  
